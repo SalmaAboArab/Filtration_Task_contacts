@@ -1,0 +1,112 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+.mainbg{
+  /* background-image: url(../../imgs/bg\ img.jpeg); */
+  /* background-size: cover; */
+
+  background-image: url(assets/bg\ img.jpeg);
+  background-size: 100% 100% ;
+  overflow: hidden;
+  background-position:center center;
+  background-repeat: no-repeat;
+}
+.disform{
+  /* top:13%;
+  left:12%;
+  border-radius: 25%; */
+  left: 80%;
+}
+.carousel-control-next-icon , .carousel-control-prev-icon{
+  background-size:50% 50%;
+}
+.photo{
+  width: 109px;
+  height: 106px;
+ border-radius: 50%;
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.contacts h3{
+  font-size: 20px;
+}
+.btns svg{
+  width: 44px;
+height: 35px;
+}
+.addbtn{
+  left: 75%;
+  top: 100%;
+  /* font-size: 18px; */
+  background-color: #1BB0F0;
+}
+.addbtn svg{
+  width: 15px;
+  height: 15px;
+  
+}
+section{
+  left: 6%;
+  top: 15%;
+}
+.srch::-webkit-input-placeholder{
+  padding: 1%;
+  color: black;
+}
+.add::-webkit-input-placeholder {
+  padding: 3%;
+  color: black;
+}
+input{
+    border: none;
+    /* border-bottom: 1px solid rgba(255,255,255,.7); */
+    border-radius: 0;
+    color: #6C757D;
+    font-weight: 500;
+    font-size: 17px;
+    outline: none;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  height: 1.5px;
+  width: 75%;
+  left: 10%;
+  margin-top: 20px;
+  /* top: 50%; */
+  background-color: #fff;
+}
+
+
+.Cancel{
+  background-color: #D9D9D9;
+}
+.Cancel:hover{
+  background-color: #c4c9cd;
+    /* transition: 0.5s; */
+}
+.save{
+  background-color: #1BB0F0;
+}
+.Cancel, .save{
+  font-size: 16px;
+}
+
+.conbg{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.MuiPagination-root {
+  button {
+    color: white !important;
+ }
+}
+
+
+
